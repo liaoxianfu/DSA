@@ -1,11 +1,9 @@
 package ch2._01_stack_array;
 
-import org.junit.Test;
-
 
 public class CH2Test {
-    @Test
-    public void demo1() {
+
+    public static void main(String[] args) {
         StackArray stackArray = new StackArray();
         for (int i = 0; i < 2048; i++) {
             stackArray.push(i);
